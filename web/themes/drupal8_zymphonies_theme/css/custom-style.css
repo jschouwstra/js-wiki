@@ -557,3 +557,17 @@ ul.links.inline li{
   text-align: left;
   margin-bottom: 5px;
 }
+
+.main-header{
+background-size: initial !important;
+
+}
+
+#main-menu a:link a:visited a:hover{
+  color: black;
+}
+
+
+.main-header:after{
+  background: none !important;
+}
