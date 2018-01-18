@@ -559,10 +559,15 @@ ul.links.inline li{
 }
 
 .main-header{
-/*background-size: contain;*/
+background-size: initial !important;
 
 }
 
 #main-menu a:link a:visited a:hover{
   color: black;
+}
+
+
+.main-header:after{
+  background: none !important;
 }
